@@ -1,0 +1,68 @@
+/* 
+.carousel-item::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); 
+  mix-blend-mode: multiply; 
+}
+
+.carousel-caption::after {
+  background-color: white; 
+  opacity: 1;
+  filter: blur(0);
+} */
+
+.carousel-item {
+  position: relative; /* Allow layering */
+}
+
+
+.image-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the container */
+  /* Adjust these styles as needed */
+  width: 400px;
+  height: 200px;
+  padding: 10px;
+ 
+}
+
+@media only screen and (max-width: 768px) {
+  .image-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the container */
+    /* Adjust these styles as needed */
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+   
+  }
+
+  .midImg{
+    width: 100px !important;
+    height: 30px !important;
+  }
+
+  #video{
+    height: 200px !important;
+  }
+}
+
+.midImg{
+  width: 250px;
+  height: 50px;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  /* Add any other image styling like border, etc. */
+}
