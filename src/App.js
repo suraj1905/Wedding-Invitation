@@ -37,8 +37,10 @@ function App() {
       <Container/>
       <Header text="Count down begins"/>
       <CountDownContainer/>
+      <Header text="Video Invitation"/>
+      <Video url="https://www.youtube.com/embed/UbUcZi3e5rA"/>
       <Header text="Special Moments"/>
-      <Video/>
+      <Video url="https://www.youtube.com/embed/icrT4ruvlHk"/>
       <div className="container text-center h-25">
         <div style={style}>
         कृपया हमारे जीवन के सबसे महत्वपूर्ण दिन पर आएं और हमें आशीर्वाद दें

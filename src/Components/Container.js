@@ -10,13 +10,13 @@ import Reception from '../assets/Reception.jpg'
 export default function Container() {
   const data = [
     {
-        occassion: "Haldi",
-        image: Haldi,
+        occassion: "Mehendi & Sangeet",
+        image: Sangeet,
         date: "20th November, 2024"
     },
     {
-        occassion: "Mehendi & Sangeet",
-        image: Sangeet,
+        occassion: "Haldi",
+        image: Haldi,
         date: "21th November, 2024"
     },
     {
